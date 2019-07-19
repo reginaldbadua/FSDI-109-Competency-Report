@@ -1,0 +1,37 @@
+<div>
+    <h2>Register new Employee</h2>
+    <h3>Please fill the inputs</h3>
+
+    <div class="form register-form">
+        <label>Name:</label>
+        <input type="text" id="txtName">
+
+        <br>
+        <label>Last Name:</label>
+        <input type="text" id="txtLast">
+            <div id="nameLastError" class="alert alert-warning hidden" role="alert">
+                Name and Last Name are required fields
+            </div>
+        <br>
+
+        <label>Phone:</label>
+        <input type="text" id="txtPhone">
+
+        <br>
+        <label>Position:</label>
+        <input type="text" id="txtPosition">
+
+        <br>
+        <label>Salary:</label>
+        <input type="text" id="txtSalary">
+            <div id="salaryError" class="alert alert-warning hidden" role="alert">
+                This is an invalid salary.
+            </div>
+
+        <br>
+
+        <button type="button" onclick="SendTest()" class="btn btn-md btn-primary">Save</button>
+    </div>
+
+
+</div>

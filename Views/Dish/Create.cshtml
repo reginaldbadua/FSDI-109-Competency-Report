@@ -1,0 +1,38 @@
+<div>
+    <h2>Enter Dish</h2>
+    <h3>Please fill the inputs</h3>
+
+    <div class="form register-form">
+        <label>Name:</label>
+        <input type="text" id="txtDishName">
+            <div id="nameDishError" class="alert alert-warning hidden" role="alert">
+                Dish name is a required field.
+            </div>
+
+        <br>
+        <label>Description:</label>
+        <input type="text" id="txtDescription">
+
+        <br>
+
+        <label>Price:</label>
+        <input type="text" id="txtPrice">
+            <div id="priceError" class="alert alert-warning hidden" role="alert">
+                This is an invalid price.
+            </div>
+
+        <br>
+        <label>ImageURL</label>:</label>
+        <input type="text" id="txtImageUrl">
+
+        <br>
+        <label>Vegan:</label>
+        <input type="checkbox" id="chkIsVegan">
+
+        <br>
+
+        <button onclick="RegisterDish()" class="btn btn-md btn-primary">Save</button>
+    </div>
+
+
+</div>
